@@ -19,4 +19,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ##  TO access to this app please open this link
 https://ndolic.github.io/myQuotes/
+## Technologies Used
+HTML CSS BOOTSTRAP Angular
 
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+ ## copyright
+ @2019

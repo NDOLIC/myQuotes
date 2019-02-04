@@ -1,12 +1,15 @@
 .btn{
     text-align: center;
-    background-color: bisque;
+    background-color: beige;
     border: white;
+    color: black;
+    /* margin-left: 300px; */
 }
 h4{
     font-size:20px;
     text-align: center;
     margin-left: 25px;
+    margin-left: 300px;
 }
 hr{
 background-color: aliceblue;

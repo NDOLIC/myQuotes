@@ -5,9 +5,10 @@ height: 40px;
 background-color: blanchedalmond;
 } */
 
-btn{
-    background-color: aqua;
+.btn{
+    background-color: beige;
     color: black;
+    border: beige;
 }
 .form{
     width: 500px;

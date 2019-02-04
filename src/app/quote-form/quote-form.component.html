@@ -1,0 +1,36 @@
+
+<div class="container-fluid">
+    <div class="row">
+        <form>
+            <div class="form-group">
+
+                <label for="author">Author</label>
+                <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.author" name="author">
+            
+                
+
+            </div>
+            <div class="form-group">
+
+                <label for="publisher">Published By</label>
+                <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.publisher" name="publisher">
+            
+            </div>
+            <div class="form-group">
+
+                <label for="quoti">Quote</label>
+                <textarea class="form-control" id="description" [(ngModel)]="newQuote.quoti" rows="4" required name="Quote"></textarea>
+                
+            </div>
+            <div class="form-group">
+                <label for="complete">Posted On</label>
+                <input type='date' id="complete" required>
+                
+            </div>
+            
+
+            <button  class="btn btn-success btn-lg" (click)='submitQuote()'>Submit Quote</button>
+        </form>
+    </div>
+</div>
+

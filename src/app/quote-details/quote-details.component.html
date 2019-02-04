@@ -1,0 +1,13 @@
+<div class="style">
+    <p>{{quote.author}}</p>
+    <p>{{quote.publisher}}</p>
+    <p>{{quote.upvote}}</p>
+    <p>{{quote.downvote}}</p>
+    <p>{{quote.description}}</p>
+    <p>{{quote.completeDate|dateCount}} days</p>
+</div>
+<div class="button">
+<button (click)='quoteUpvote()' class="btn btn-success">Upvote</button>&nbsp;
+<button (click)='quoteDownvote()' class="btn btn-success"> Downvote </button>&nbsp;
+<button (click) = 'quoteComplete(true)'> Done </button>
+</div>

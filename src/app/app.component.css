@@ -1,0 +1,14 @@
+.jumbotron{
+    color:white;
+    text-decoration: bisque;
+    font-family:Times New Roman;
+    background-image: url(https://images.pexels.com/photos/301378/pexels-photo-301378.jpeg?cs=srgb&dl=background-board-carpentry-301378.jpg&fm=jpg);
+    background-size: cover;
+    height: 100%;
+    font-weight: bold;
+}
+.container{
+    background-color: rgb(44, 22, 5);
+    border-radius: 1%;
+    color: wheat;
+}

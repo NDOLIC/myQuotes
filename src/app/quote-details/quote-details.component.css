@@ -9,9 +9,9 @@
 }
 .style{
 justify-content: center;
-padding-top: 30px;
-padding-bottom: 30px;
-margin-left: 36px;
-margin-right: 30px;
-color: black;
+text-align: center;
+color: whitesmoke;
+}
+p{
+    text-align: center;
 }

@@ -7,11 +7,12 @@
     <div class="row" *ngFor="let quote of quotes;let i = 'index'">
         <div class="row">
             <h4 id="{{i}}">
-                {{quote.quoti}} <br> 
-                Posted on {{quote.postDate|date|uppercase}} <br>
+                {{quote.quoti}} <br>
+                Posted on {{quote.postDate|date|uppercase}}<br><br>
             
         
-            <button class="btn btn-primary" (click)='toogleDetails(i)'>Show Details</button>
+            <button class="btn btn-primary" (click)='toogleDetails(i)'>Show Details</button><br><br>
+
         </h4>
         </div>
         <div class="row" *ngIf="quote.showDescription">

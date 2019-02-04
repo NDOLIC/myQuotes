@@ -1,11 +1,12 @@
 .btn{
     color: rgb(97, 141, 143);
-    padding-right: 20px;
+    /* padding-right: 20px; */
     background-color: aliceblue;
 
 }
 .button{
     text-align: center;
+   float:none;
 }
 .style{
 justify-content: center;

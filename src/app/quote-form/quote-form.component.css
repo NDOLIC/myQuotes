@@ -1,9 +1,15 @@
-form{
-margin-left: 300px;
+/* .form{
+margin-left: 450px;
 color: black;
 height: 40px;
-}
+background-color: blanchedalmond;
+} */
+
 btn{
     background-color: aqua;
     color: black;
+}
+.form{
+    width: 500px;
+    margin-left: 300px;
 }

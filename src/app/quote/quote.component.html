@@ -1,7 +1,7 @@
 
 
 
-<div class="container">
+<!-- <div class="container"> -->
         
 
     <div class="row" *ngFor="let quote of quotes;let i = 'index'">
@@ -19,8 +19,10 @@
         <app-quote-details *ngIf="quote.showDescription"[quote]='quote' (isComplete)= 'completeQuote($event,i)'></app-quote-details>
     </div>
 </div>
-</div>
-<div class="row"> 
+<!-- </div> -->
+<!-- <br> <br> <br> <br> <br>
+<div class="row"> -->
+    <hr>
    <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
-</div> 
+<!-- </div>  -->
    

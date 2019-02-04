@@ -2,10 +2,16 @@
     color: rgb(97, 141, 143);
     padding-right: 20px;
     background-color: aliceblue;
+
 }
 .button{
     text-align: center;
 }
 .style{
 justify-content: center;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-left: 36px;
+margin-right: 30px;
+color: black;
 }
